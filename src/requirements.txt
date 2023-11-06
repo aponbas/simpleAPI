@@ -1,0 +1,10 @@
+fastapi==0.104.1
+google-cloud-secret-manager==2.16.4  # Stores secrets in Google Cloud Platform
+gunicorn==21.2.0  # Necessary for FastAPI in the cloud
+passlib[bcrypt]==1.7.4  # Password encryption
+PyJWT==2.8.0  # JWT package
+python-decouple==3.8  # Reading .env
+python-multipart==0.0.6  # Package for handling form data in requests
+SQLAlchemy==1.4.50  # Convenient querying
+sqlalchemy-bigquery==1.8.0  # Querying BigQuery
+uvicorn==0.24.0  # Necessary for FastAPI
